@@ -1,0 +1,37 @@
+.background    { background: url(https://orig00.deviantart.net/1efd/f/2018/087/2/9/tilesetopengamebackground_1_by_notanamewaster-dc78e37.png);
+				 background-size: 40%;
+                 table-layout: fixed;
+                 border-spacing: 0;   }
+.background td { padding: 0;          }
+.lava          { background: url(https://pre00.deviantart.net/d5f9/th/pre/i/2018/087/7/7/lava__3_by_notanamewaster-dc78f2m.png); 
+				background-size: 100%;}
+.wall          { background: url(https://orig00.deviantart.net/36fc/f/2018/087/0/5/tileset_ground_1_by_notanamewaster-dc78gnt.png); 
+				background-size: 400%;}
+.Floor  { background: url(https://orig00.deviantart.net/7870/f/2018/087/c/8/tileset_ground_0_by_notanamewaster-dc78c0f.png);   
+				background-size: 400%;}
+.actor  { position: absolute;  }
+.player { background: rgb(64, 64, 64); }
+.coin { background: rgb(241, 229, 89); }
+.hash { background: rgb(53, 204, 67); }
+.invis { background: #000000; }
+.small { background: #000000; }
+
+.game {
+  overflow: hidden;
+  max-width: 600px;
+  max-height: 450px;
+  position: absolute;
+}
+
+
+.lost .player {
+  background: rgb(160, 64, 64);
+}
+.won .player {
+  box-shadow: -4px -7px 8px white, 4px -7px 8px white;
+}
+
+
+
+
+
